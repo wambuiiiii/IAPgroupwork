@@ -1,0 +1,24 @@
+body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: black; /* Initial black color */
+            transition: background-color 0.5s ease-in-out; /* Add transition effect for smoother change */
+        }
+
+
+
+        .navbar-nav.ms-auto a {
+            color: white;
+              margin-right: 20px;/* Set text color for the links */
+        }
+
+        .navbar-nav.ms-auto a:hover {
+            color: #8b5b13; /* Set text color for the links on hover */
+        }
+
+        .slider-item {
+            position: relative;
+        }
